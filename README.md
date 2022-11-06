@@ -7,7 +7,7 @@ The major tasks performed by the model is to recognise:<br />
 What is the meaning of a particular part of the sentence like whether it is a noun , pronoun or adjective.<br />
 The basic abbrevations used by scikit learn are as follows:<br />
 
-##Part of Speech<br />
+#Part of Speech <br />
 
 NNS → Noun Plural ie.Tables <br />
 NN → Noun Singular ie.Table<br />
@@ -20,7 +20,7 @@ To get awareness about the type of named entitiy used in the input text, NER is 
 I have used Spacy,  a module offered by python for fast and accurate recognitions of the named entity.<br />
 The abbrevations used by them are as follows:<br />
 
-##Named Entity Realtions<br />
+#Named Entity Realtions<br />
 
 PERSON:      People, including fictional.<br />
 NORP:        Nationalities or religious or political groups.<br />
