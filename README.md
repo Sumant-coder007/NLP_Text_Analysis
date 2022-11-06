@@ -2,25 +2,25 @@
 This is a NLP based Text preprocessing model developed to take care of the major preprocessing which needs to be done for language processing.<br />
 
 The major tasks performed by the model is to recognise:<br />
-1. Parts of Speech <br />
+## 1. Parts of Speech <br />
 
 What is the meaning of a particular part of the sentence like whether it is a noun , pronoun or adjective.<br />
 The basic abbrevations used by scikit learn are as follows:<br />
 
-## Part of Speech <br />
+### Part of Speech <br />
 
 NNS → Noun Plural ie.Tables <br />
 NN → Noun Singular ie.Table<br />
 VBG → Verb<br />
 PRP → Pronoun<br />
 
-2. Named Entity Recognition.<br />
+## 2. Named Entity Recognition.<br />
 
 To get awareness about the type of named entitiy used in the input text, NER is performed on the input data to gate a brief idea about what is the basic conclusion out of thr text.<br />
 I have used Spacy,  a module offered by python for fast and accurate recognitions of the named entity.<br />
 The abbrevations used by them are as follows:<br />
 
-## Named Entity Realtions<br />
+### Named Entity Realtions<br />
 
 PERSON:      People, including fictional.<br />
 NORP:        Nationalities or religious or political groups.<br />
@@ -42,7 +42,7 @@ ORDINAL:     “first”, “second”, etc.<br />
 CARDINAL:    Numerals that do not fall under another type.<br />
 
 
-3. Sentiment Analysis <br />
+## 3. Sentiment Analysis <br />
 
 After all the preprocessing is done we need to analyse the context of the sentence entered hat whether it is a positive or negative sentence. <br />
 Kaggle's dataset is used for mode traininig after all the preprocessing is done ( tokenization,Stopwords removal, stemming, vectorization (Counter)).<br />
@@ -55,7 +55,7 @@ Count Vectorization is used to transform the data to pass onto the model.<br />
 
 ![image](https://user-images.githubusercontent.com/62856191/200178158-ab69c480-712d-44dd-9cb9-34371730a418.png)
 
-##Functioning of the model:<br />
+### Functioning of the model:<br />
 
 ![image](https://user-images.githubusercontent.com/62856191/200178197-7b3e86f5-d16d-4365-9ec4-26b5b4776a4e.png)
 <br />
@@ -67,7 +67,7 @@ Count Vectorization is used to transform the data to pass onto the model.<br />
 <br />
 <br />
 
-Modules Used:<br />
+## Modules Used:<br />
 1. NumPy<br />
 2. Pandas<br />
 3. nltk<br />
