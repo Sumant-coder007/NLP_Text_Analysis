@@ -54,8 +54,10 @@ Count Vectorization is used to transform the data to pass onto the model.<br />
 1 - Positive<br />
 
 ![image](https://user-images.githubusercontent.com/62856191/200178158-ab69c480-712d-44dd-9cb9-34371730a418.png)
+<br />
+<br />
 
-### Functioning of the model:<br />
+## Functioning of the model:<br />
 
 ![image](https://user-images.githubusercontent.com/62856191/200178197-7b3e86f5-d16d-4365-9ec4-26b5b4776a4e.png)
 <br />
